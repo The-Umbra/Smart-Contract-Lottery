@@ -11,7 +11,7 @@ PROJECT MADE WITH
 
 FOR INSTALL
 
-*Live Server (Vs Code Extension)
-*npm install --global yarn
-*yarn add --save-dev hardhat
-*yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
+-   Live Server (Vs Code Extension)
+-   npm install --global yarn
+-   yarn add --save-dev hardhat
+-   yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
