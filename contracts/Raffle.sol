@@ -99,6 +99,7 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
         upkeepNeeded = (isOpen && timePassed && hasPlayers && hasBalance);
     }
 
+
     function requestRandomWinner() external {
         // Request the random number
         // Once We get it , do something
