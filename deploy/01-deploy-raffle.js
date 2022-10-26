@@ -15,7 +15,8 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
     }
 
     const entranceFee = networkConfig[chainId]["entranceFee"]
-    const args = [VRFCoordinatorV2Address, entranceFee]
+    const gasLane = networkConfig[chainId]["gasLane"]
+    const args = [VRFCoordinatorV2Address, entranceFee, gasLane]
     const raffle = await deploy("Raffle", {
         from: deployer,
         args: args,
